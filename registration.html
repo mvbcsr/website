@@ -1,0 +1,129 @@
+<html>
+ <head> <title> Registration Form </title>
+  <script language="javascript" type="text/javascript">
+      function fun()
+	  {
+	    var username,password;
+var emailfilter=/^\w+[\+\.\w-]*@([\w-]+\.)*\w+[\w-]*\.([a-z]{2,4}|\d+)$/i;
+		username=registration.uname.value;
+		password=registration.pwd.value;
+		email=registration.email.value;
+		mobile=registration.mobile.value;
+		male=registration.gender[0].checked;
+		female=registration.gender[1].checked;
+		english=registration.eng.checked;
+		telugu=registration.tel.checked;
+		hindi=registration.hin.checked;
+		tamil=registration.tamil.checked;
+		d=registration.Date.selectedIndex;
+		m=registration.Month.selectedIndex;
+		y=registration.Year.selectedIndex;
+		address=registration.address.value;
+		if(username=="")
+		{
+		   window.alert("Please enter Username");
+		   registration.uname.focus();
+		   return false;
+		}
+		if(password=="")
+		{
+		   window.alert("please enter password");
+		   registration.pwd.focus();
+		   return false;
+		}
+		if(emailfilter.test(registration.email.value)==false)
+		{
+			window.alert("Please Enter a valid Mail ID");
+			registration.email.focus();
+			return false;
+		}
+		if(mobile=="" || isNaN(mobile))
+		{
+		     window.alert("please enter mobile number like 9836839890 and Mobile number must be a 10 digit number"); 
+		     registration.mobile.select();	     
+			 return false;    
+		}
+		if(male==false && female==false)
+		{
+		    window.alert("please choose your gender");
+			return false;
+		}
+		if(d==0 || m==0 || y==0)
+		{
+		   window.alert("Please select Date, Month and Year");
+		   registration.Date.focus();
+		   return false;
+		}
+		if(english==false && telugu==false && hindi==false && tamil==false)
+		{
+		  window.alert("please select at least one language");
+		  return false;
+		}
+		if(address=="")
+		{
+		    window.alert("Please Enter your address");
+			registration.address.focus();
+			return false;
+		}
+		else
+          window.alert("Registration done successfully");
+	  }
+  </script>
+</head>
+
+<body bgcolor="snow">
+ <center> 
+  <h3> <u><i> Registration Form </i></u> </h3> 
+  <form name="registration">
+   <table border="5" bordercolor="blue">
+
+    <tr><td>Name    : <input type="text" name="uname" size="30" autofocus> </td>   </tr>
+    <tr><td>password: <input type="password" name="pwd" size="30"></td>   </tr>
+    <tr><td> Email ID: <input type="text" name="email" size="30"></td>   </tr>
+    <tr><td>Phone Number: <input type="text" name="mobile" size="30"></td>   </tr>
+	<tr><td>Gender  : <input type="radio" name="gender" value="male">Male <hspace="5">
+					  <input type="radio" name="gender" value="female">Female
+	</td></tr>
+	
+	<tr><td>Date of Birth: 
+	<select name="Date">
+     <option selected>Select Date
+     <option> 1
+	 <option> 2
+	 <option> 3
+    </select> <hspace="5">
+	<select name="Month">
+     <option selected>Select Month
+     <option> January
+	 <option> February
+	 <option> March
+    </select> <hspace="5">
+	<select name="Year">
+     <option selected>Select Year
+     <option> 1990
+	 <option> 1991
+	 <option> 1992
+    </select> <hspace="5">
+	</td></tr>
+	
+	<tr><td>Languages Known: 
+	<input type="checkbox" name="english" id="eng">English <hspace="5">
+	<input type="checkbox" name="telugu" id="tel">Telugu <hspace="5">
+	<input type="checkbox" name="hindi" id="hin">Hindi <hspace="5">
+	<input type="checkbox" name="tamil">Tamil <hspace="5">
+	</td></tr>
+	
+	<tr><td>Address :
+	<textarea rows="5" cols="30" name="address"></textarea></td></tr>
+
+ <tr align="center"><td>
+     <input type="button" value="Submit" name="submit" onClick="fun()">
+     <input type="reset"  value="reset"> </td></tr>
+	 
+    </table>
+       </form>
+
+   </center>
+
+  </body>
+</html>

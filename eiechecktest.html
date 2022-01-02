@@ -1,0 +1,43 @@
+<HTML>
+
+   <HEAD>
+
+      <TITLE> lOADING xml dOCUMENT </TITLE>
+
+	<SCRIPT LANGUAGE="JavaScript">
+
+	 	function fun()
+	  	{
+            		window.alert("You have selected the book");
+	  	}
+
+	</SCRIPT>
+
+   </HEAD>
+
+   <BODY>
+     
+           <SCRIPT LANGUAGE="JavaScript">
+	
+		var xmldoc;
+
+		xmldoc = new ActiveXObject("Microsoft.XMLDOM");
+		xmldoc.load("eiebook.xml");
+	       
+
+		arr=xmldoc.getElementsByTagName("ITEM");
+
+		
+
+		for(i=0;i<arr.length;i++)
+		{
+		      document.write("<table align='center' cellspacing='50' bordercolor='pink'> <tr><td> <img src='Sunset.jpg' width='50' height='50'></td> <td> <b>NAME:</b>"+xmldoc.getElementsByTagName("NAME")[i].childNodes[0].nodeValue+"<BR> <b>AUTHOR:</b>"+xmldoc.getElementsByTagName("AUTHOR")[i].childNodes[0].nodeValue+"<BR> <b>PRICE:</b>"+xmldoc.getElementsByTagName("PRICE")[i].childNodes[0].nodeValue+"<BR> <b>PUBLISHER:</b>"+xmldoc.getElementsByTagName("PUBLISHER")[i].childNodes[0].nodeValue+"<BR> <b>ISBN:</b>"+xmldoc.getElementsByTagName("ISBN")[i].childNodes[0].nodeValue+"<BR></td> <td> <input type='button' value='Add To Cart' onclick='fun()'</td></tr></table>");
+		     document.write("<hr>");
+		}
+
+	
+           </SCRIPT>
+
+   </BODY>
+
+</HTML>

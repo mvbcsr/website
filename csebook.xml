@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+
+<CSEBOOK>
+
+	<ITEM>
+
+	   <NAME>   JAVA </NAME>
+	   <AUTHOR> SCHIELD </AUTHOR>
+	   <PRICE>  500 </PRICE>
+	   <PUBLISHER> TATA </PUBLISHER>
+	   <ISBN>  12345   </ISBN>
+
+	</ITEM>
+
+	 <ITEM>
+
+	   <NAME> C++   </NAME>
+   	   <AUTHOR> HERBERT </AUTHOR>
+   	   <PRICE> 499.99  </PRICE>
+   	   <PUBLISHER> TATA </PUBLISHER>
+   	   <ISBN> 12346    </ISBN>
+
+	</ITEM>
+
+	<ITEM>
+
+   	   <NAME>  C  </NAME>
+   	   <AUTHOR> AITAM </AUTHOR>
+           <PRICE>  500 </PRICE>
+   	   <PUBLISHER>  TATA </PUBLISHER>
+   	   <ISBN>  12347   </ISBN>
+
+	</ITEM> 
+
+	
+
+</CSEBOOK>

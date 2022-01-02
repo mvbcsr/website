@@ -1,0 +1,27 @@
+<html>
+<head> <title> Login Page </title> 
+
+<script language="javascript" type="text/javascript">
+function fun()
+{
+if(login.uname.value=="")
+  window.alert("Please enter Username");
+else if(login.pwd.value=="")
+  window.alert("please enter password");
+}
+</script>
+</head>
+
+<body bgcolor="snow">
+ <form name="login">
+   <center><h3><u> Login Page  </u></h3>
+     username: <input type="text" name="uname" size="30" placeholder="Please enter username" maxlength="30" autofocus><br><br>
+     password: <input type="password" name="pwd" size="30" maxlength="12" placeholder="Please enter password"><br><br>
+     <input type="submit" value="Submit" onClick="fun()">
+     <input type="reset" value="reset">
+    </center>
+
+ </form>
+</body>
+
+</html>

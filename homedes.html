@@ -1,0 +1,60 @@
+<html>
+<style>
+table,th,td 
+{
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td 
+{
+  padding: 5px;
+}
+</style>
+   <body bgcolor="snow">
+
+	   <center> <u> ONLINE BOOK SHOP </u>
+	   
+ <p>Online Book Shop is an online Web application where the customer can purchase books online through a web browser.
+The customers can search for a book by its Title, Author, Publisher, Price, ISBN. 
+The customer can select the books which can be automatically added to the cart and finally purchase the books.</p></center>
+
+<br><br>
+<button type="button" onclick="loadXMLDoc()">Get New Books...</button>
+<br><br>
+<table id="demo"></table>
+
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.open("GET", "book.xml", true);
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) 
+	{
+      myFunction(this);
+    }
+  };
+  xmlhttp.send();
+}
+function myFunction(xml) 
+{
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>NAME</th><th>AUTHOR</th><th>PRICE</th><th>PUBLISHER</th><th>ISBN</th></tr>";
+  var x = xmlDoc.getElementsByTagName("ITEM");
+  for (i = 0; i <x.length; i++) 
+  { 
+
+	table = table + "<tr><td>" +x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
+				    "</td><td>" +x[i].getElementsByTagName("AUTHOR")[0].childNodes[0].nodeValue +
+					"</td><td>"+x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue +
+					"</td><td>"+x[i].getElementsByTagName("PUBLISHER")[0].childNodes[0].nodeValue +
+					"</td><td>"+x[i].getElementsByTagName("ISBN")[0].childNodes[0].nodeValue +
+				 "</td></tr>";
+  }
+
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+
+   </body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<ECEBOOK>
+
+	<ITEM>
+
+	   <NAME>   DigitalElectronics </NAME>
+	   <AUTHOR> SCHIELD </AUTHOR>
+	   <PRICE>  500 </PRICE>
+	   <PUBLISHER> TATA </PUBLISHER>
+	   <ISBN>  12345   </ISBN>
+
+	</ITEM>
+
+	 <ITEM>
+
+	   <NAME> opticalCommunication   </NAME>
+   	   <AUTHOR> HERBERT </AUTHOR>
+   	   <PRICE> 499.99  </PRICE>
+   	   <PUBLISHER> TATA </PUBLISHER>
+   	   <ISBN> 12346    </ISBN>
+
+	</ITEM>
+
+	<ITEM>
+
+   	   <NAME>  FiberOptics  </NAME>
+   	   <AUTHOR> CHANDRASEKHAR </AUTHOR>
+           <PRICE>  500 </PRICE>
+   	   <PUBLISHER>  TATA </PUBLISHER>
+   	   <ISBN>  12347   </ISBN>
+
+	</ITEM> 
+
+</ECEBOOK>

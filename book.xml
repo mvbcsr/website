@@ -1,0 +1,185 @@
+<?xml version="1.0"?>
+
+<BOOK>
+
+	<ITEM>
+
+	   <NAME>   JAVA </NAME>
+	   <AUTHOR> SCHIELD </AUTHOR>
+	   <PRICE>  500 </PRICE>
+	   <PUBLISHER> TATA </PUBLISHER>
+	   <ISBN>  12345   </ISBN>
+
+	</ITEM>
+
+	 <ITEM>
+
+	   <NAME> C++   </NAME>
+   	   <AUTHOR> HERBERT </AUTHOR>
+   	   <PRICE> 499.99  </PRICE>
+   	   <PUBLISHER> TATA </PUBLISHER>
+   	   <ISBN> 12346    </ISBN>
+
+	</ITEM>
+
+	<ITEM>
+
+   	   <NAME>  C  </NAME>
+   	   <AUTHOR> CHANDRASEKHAR </AUTHOR>
+           <PRICE>  500 </PRICE>
+   	   <PUBLISHER>  TATA </PUBLISHER>
+   	   <ISBN>  12347   </ISBN>
+
+	</ITEM> 
+
+	<ITEM>
+
+	   <NAME>   DigitalElectronics </NAME>
+	   <AUTHOR> SCHIELD </AUTHOR>
+	   <PRICE>  500 </PRICE>
+	   <PUBLISHER> TATA </PUBLISHER>
+	   <ISBN>  12345   </ISBN>
+
+	</ITEM>
+
+	 <ITEM>
+
+	   <NAME> opticalCommunication   </NAME>
+   	   <AUTHOR> HERBERT </AUTHOR>
+   	   <PRICE> 499.99  </PRICE>
+   	   <PUBLISHER> TATA </PUBLISHER>
+   	   <ISBN> 12346    </ISBN>
+
+	</ITEM>
+
+	<ITEM>
+
+   	   <NAME>  FiberOptics  </NAME>
+   	   <AUTHOR> CHANDRASEKHAR </AUTHOR>
+           <PRICE>  500 </PRICE>
+   	   <PUBLISHER>  TATA </PUBLISHER>
+   	   <ISBN>  12347   </ISBN>
+
+	</ITEM> 
+
+	<ITEM>
+
+	   <NAME>   Electric Theory1 </NAME>
+	   <AUTHOR> SCHIELD </AUTHOR>
+	   <PRICE>  500 </PRICE>
+	   <PUBLISHER> TATA </PUBLISHER>
+	   <ISBN>  12345   </ISBN>
+
+	</ITEM>
+
+	 <ITEM>
+
+	   <NAME> Electric Theory2   </NAME>
+   	   <AUTHOR> HERBERT </AUTHOR>
+   	   <PRICE> 499.99  </PRICE>
+   	   <PUBLISHER> TATA </PUBLISHER>
+   	   <ISBN> 12346    </ISBN>
+
+	</ITEM>
+
+	<ITEM>
+
+   	   <NAME>  Electric Theory3  </NAME>
+   	   <AUTHOR> CHANDRASEKHAR </AUTHOR>
+           <PRICE>  500 </PRICE>
+   	   <PUBLISHER>  TATA </PUBLISHER>
+   	   <ISBN>  12347   </ISBN>
+
+	</ITEM> 
+
+	<ITEM>
+
+	   <NAME>   INSTRUMENT THEORY1 </NAME>
+	   <AUTHOR> SCHIELD </AUTHOR>
+	   <PRICE>  500 </PRICE>
+	   <PUBLISHER> TATA </PUBLISHER>
+	   <ISBN>  12345   </ISBN>
+
+	</ITEM>
+
+	 <ITEM>
+
+	   <NAME> INSTRUMENT THEORY2   </NAME>
+   	   <AUTHOR> HERBERT </AUTHOR>
+   	   <PRICE> 499.99  </PRICE>
+   	   <PUBLISHER> TATA </PUBLISHER>
+   	   <ISBN> 12346    </ISBN>
+
+	</ITEM>
+
+	<ITEM>
+
+   	   <NAME>  INSTRUMENT THEORY3  </NAME>
+   	   <AUTHOR> CHANDRASEKHAR </AUTHOR>
+           <PRICE>  500 </PRICE>
+   	   <PUBLISHER>  TATA </PUBLISHER>
+   	   <ISBN>  12347   </ISBN>
+
+	</ITEM> 
+
+	<ITEM>
+
+	   <NAME>  MACHIENE THEORY1 </NAME>
+	   <AUTHOR> SCHIELD </AUTHOR>
+	   <PRICE>  500 </PRICE>
+	   <PUBLISHER> TATA </PUBLISHER>
+	   <ISBN>  12345   </ISBN>
+
+	</ITEM>
+
+	 <ITEM>
+
+	   <NAME> MACHIENE THEORY2   </NAME>
+   	   <AUTHOR> HERBERT </AUTHOR>
+   	   <PRICE> 499.99  </PRICE>
+   	   <PUBLISHER> TATA </PUBLISHER>
+   	   <ISBN> 12346    </ISBN>
+
+	</ITEM>
+
+	<ITEM>
+
+   	   <NAME>  MACHIENE THEORY3  </NAME>
+   	   <AUTHOR> CHANDRASEKHAR </AUTHOR>
+           <PRICE>  500 </PRICE>
+   	   <PUBLISHER>  TATA </PUBLISHER>
+   	   <ISBN>  12347   </ISBN>
+
+	</ITEM> 
+
+	<ITEM>
+
+	   <NAME>   CIVIL THEORY1 </NAME>
+	   <AUTHOR> SCHIELD </AUTHOR>
+	   <PRICE>  500 </PRICE>
+	   <PUBLISHER> TATA </PUBLISHER>
+	   <ISBN>  12345   </ISBN>
+
+	</ITEM>
+
+	 <ITEM>
+
+	   <NAME> CIVIL THEORY2   </NAME>
+   	   <AUTHOR> HERBERT </AUTHOR>
+   	   <PRICE> 499.99  </PRICE>
+   	   <PUBLISHER> TATA </PUBLISHER>
+   	   <ISBN> 12346    </ISBN>
+
+	</ITEM>
+
+	<ITEM>
+
+   	   <NAME>  CIVIL THEORY3  </NAME>
+   	   <AUTHOR> CHANDRASEKHAR </AUTHOR>
+           <PRICE>  500 </PRICE>
+   	   <PUBLISHER>  TATA </PUBLISHER>
+   	   <ISBN>  12347   </ISBN>
+
+	</ITEM> 
+
+</BOOK>
